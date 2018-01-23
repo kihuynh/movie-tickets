@@ -1,3 +1,14 @@
 #movie-info {
   display: none;
+  margin: 20px;
+  padding: 5px;
+}
+
+h4 {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 15px;
 }
