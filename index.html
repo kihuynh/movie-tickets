@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>BUY MOVIE TICKETS HERE</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="inputs">
+            <div class="form-group">
+              <h2>Select movie:</h2>
+              <select class="form-control" id="movie">
+                <option>Die Hard</option>
+                <option>Independence Day</option>
+                <option>Star Wars: Force Awakens</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <h2>Select time:</h2>
+              <select class="form-control" id="time">
+                <option>Matinee</option>
+                <option>Evening</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <h2>Select age:</h2>
+              <select class="form-control" id="age">
+                <option>Kid</option>
+                <option>Adult</option>
+                <option>Senior</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-md-6" id="movie-info">
+          <h2>Enjoy the movie!</h2>
+          <h4>Here's your receipt:</h4>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
